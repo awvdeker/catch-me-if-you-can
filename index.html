@@ -8,12 +8,18 @@
   <link rel="stylesheet" href="style.css">
   <title>Catch me if you can</title>
 </head>
-<body>
+<body onload="textChange()">
 <div class="container">
   <button type="button" class="btn btn-primary d-block mx-auto" id="doge">Doggo</button>
 </div>
-<script>
 
+<!-- When the page is finished loading, change the text to "Woof!" -->
+
+<script>
+function textChange(){
+  var el=document.getElementById("doge");
+  el.innerHTML="Woof!";
+}
 </script>
 </body>
 </html>
