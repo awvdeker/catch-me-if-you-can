@@ -19,3 +19,13 @@ function littleIcon(){
     el.style.backgroundPosition= "50% 0%";
     el.style.backgroundSize= contain;
   }
+
+
+console.log()
+//zo kan je kijken in console in chrome of firefox wat het geeft !!
+//belangrijk!!!
+
+
+//oplossing
+
+//document.getElementById("doge").addEventListener("mouseover",function())
