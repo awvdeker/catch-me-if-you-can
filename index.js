@@ -13,11 +13,11 @@ function textChange(){
 
 
 function littleIcon(){
-    el.innerHTML="qsdf";
-    el.style.backgroundImage= url("doggy.jpeg");
-    el.style.backgroundRepeat= no-repeat;
+    el.innerHTML="";
+    el.style.backgroundImage= "url('doggy.jpeg')";
+    el.style.backgroundRepeat= "no-repeat";
     el.style.backgroundPosition= "50% 0%";
-    el.style.backgroundSize= contain;
+    el.style.backgroundSize= "contain";
   }
 
 

@@ -1,5 +1,9 @@
 #doge {
+  display: block;
   width: 200px;
+  height: 100px;
   margin-top: 300px;
+  margin-left: auto;
+  margin-right: auto;
   /*border: 2px solid green;*/
 }
