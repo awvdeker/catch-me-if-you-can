@@ -20,6 +20,11 @@ function littleIcon(){
 
 function dogOnScreen(){
 
+  if (document.getElementById("dogimage")){
+    return;
+  }
+
+
   var dogImage = document.createElement("img");
   dogImage.src="doggo_icon.png";
   dogImage.id="dogimage";
