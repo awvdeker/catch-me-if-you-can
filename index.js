@@ -4,13 +4,11 @@ var el=document.getElementById("doge");
 
 el.addEventListener("mouseenter",littleIcon);
 
+el.addEventListener("click",dogOnScreen);
 
 function textChange(){
     el.innerHTML="Woof!";
   }
-
-
-
 
 function littleIcon(){
     el.innerHTML="";
@@ -19,6 +17,17 @@ function littleIcon(){
     el.style.backgroundPosition= "50% 0%";
     el.style.backgroundSize= "contain";
   }
+
+function dogOnScreen(){
+
+  var dogImage = document.createElement("img");
+  dogImage.src="doggo_icon.png";
+  dogImage.id="dogimage";
+  document.body.appendChild(dogImage);
+
+}
+
+
 
 
 console.log()
