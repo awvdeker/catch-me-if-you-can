@@ -21,6 +21,8 @@ function littleIcon(){
 function dogOnScreen(){
 
   if (document.getElementById("dogimage")){
+    dogImageRemove=document.getElementById("dogimage");
+    dogImageRemove.parentNode.removeChild(dogImageRemove);
     return;
   }
 
